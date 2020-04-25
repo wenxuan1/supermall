@@ -1,0 +1,37 @@
+@import './normalize.css';
+
+/* 获取根元素root 也就是html */
+:root {
+  /* 这是css自定义名称 */
+  /* 在别的css里就可以用var() 来引用这个定义的属性 */
+  --color-text: #666;
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;
+  --font-size: 14px;
+  --color-background: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
