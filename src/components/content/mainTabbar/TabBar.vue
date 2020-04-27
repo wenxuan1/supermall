@@ -6,8 +6,7 @@
 
 <script>
 export default {
-  name: 'tab-bar',
-  
+  name: 'tab-bar'
 }
 </script>
 

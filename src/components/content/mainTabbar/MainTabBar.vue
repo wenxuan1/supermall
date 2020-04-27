@@ -36,7 +36,7 @@
     components: {
       TabBar,
       TabBarItem
-    },
+    }
   }
 </script>
 
